@@ -124,7 +124,7 @@ print('Diff: ', diff)
 - Các bạn có thể xem thêm qua Google Colab của mình:
 [link](https://colab.research.google.com/drive/1XMIrPA2p-tczsnA3RZ1DQ9mmTJvOJJjC?usp=sharing)
 ## Tạo sandbox
-- Cách tạo sandbox và cấu trúc của sandbox có thể xem ở đây: []()
+- Cách tạo sandbox và cấu trúc của sandbox có thể xem ở đây: [link](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/build-system.html?highlight=projbuild#example-project)
 - Sandbox của mình có cấu trúc như sau
 ```
 ---build
