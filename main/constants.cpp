@@ -1,3 +1,3 @@
 #include "constants.hpp"
 
-const int kInferencesPerCycle = 20;
+const int kInferencesPerCycle = 40;
