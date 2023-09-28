@@ -205,3 +205,17 @@ float y = output->data.f[0];
 inference_count += 1;
 if (inference_count >= kInferencesPerCycle) inference_count = 0;
 ```
+## Build SW
+- Chạy lệnh sau để compile và build sw:
+```bash
+idf.py set-target esp32s3
+idf.py build
+```
+- Nhớ thay ```esp32s3``` bằng dev kit hoặc esp32 của các bạn nha
+- Sau đó kiểm tra port serial
+   - MAC OS: ls /dev/cu.*
+   - Linux: ls /dev/tty*
+- Flash xuống board:
+```bash
+idf.py -p PORT [-b BAUD] flash
+```
