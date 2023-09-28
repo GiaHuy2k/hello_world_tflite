@@ -6,6 +6,7 @@
 1. [Tạo mô hình sin bằng ML](#tạo-mô-hình-sin-bằng-ml)
 2. [Tạo sandbox](#tạo-sandbox)
 3. [Code ESP32 chạy ML](#code-esp32-chạy-ml)
+4. [Build và Flash SW](#build-và-flash-sw)
 
 ## Tạo mô hình sin bằng ML
 -   Để tạo mô hình sin bằng ML, mình sẽ dùng Google Colab để xây dựng mô hình ML.
@@ -205,7 +206,7 @@ float y = output->data.f[0];
 inference_count += 1;
 if (inference_count >= kInferencesPerCycle) inference_count = 0;
 ```
-## Build SW
+## Build và Flash SW
 - Chạy lệnh sau để compile và build sw:
 ```bash
 idf.py set-target esp32s3
