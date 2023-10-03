@@ -10,7 +10,7 @@
 
 ## Tạo mô hình sin bằng ML
 -   Để tạo mô hình sin bằng ML, mình sẽ dùng Google Colab để xây dựng mô hình ML.
--   Do tính chất của dự án Hello World, mình sẽ tự tạo ra data của x bằng hàm ``np.random.uniform``. Data của x sau đó sẽ được suffle và tính toán ra y.
+-   Do tính chất của dự án Hello World, mình sẽ tự tạo ra data của x bằng hàm ``np.random.uniform``. Data của x sau đó sẽ được shuffle và tính toán ra y.
 ```python
 # Number of samples
 SAMPLE = 3000
